@@ -12,7 +12,7 @@
 }
 
 body{
-    background: url("../assets/images/background-pattern-desktop.svg") no-repeat left top,
+    background: url("./assets/images/background-pattern-desktop.svg") no-repeat left top,
                 linear-gradient(
                     180deg,
                     var(--dark-purple) 0%,
@@ -53,7 +53,7 @@ main h1 {
 
 main h1::before{
     position: relative;
-    content: url(../assets/images/icon-star.svg);
+    content: url(./assets/images/icon-star.svg);
 }
 
 .faqs {
@@ -78,11 +78,11 @@ main h1::before{
 
 .faqs > .title::after{
     position: relative;
-    content: url(../assets/images/icon-plus.svg);
+    content: url(./assets/images/icon-plus.svg);
 }
 
 .faqs.opened > .title::after{
-    content: url(../assets/images/icon-minus.svg);
+    content: url(./assets/images/icon-minus.svg);
 }
 
 .faqs p {
@@ -106,7 +106,7 @@ main h1::before{
 
 @media (max-width:375px) {
     body{
-        background: url("../assets/images/background-pattern-mobile.svg") no-repeat left top,
+        background: url("./assets/images/background-pattern-mobile.svg") no-repeat left top,
                 linear-gradient(
                     180deg,
                     var(--dark-purple) 0%,
@@ -126,18 +126,18 @@ main h1::before{
 
 @font-face {
     font-family: 'Work Sans';
-    src: url(../assets/fonts/static/WorkSans-Regular.ttf);
+    src: url(./assets/fonts/static/WorkSans-Regular.ttf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Work Sans';
-    src: url(../assets/fonts/static/WorkSans-SemiBold.ttf);
+    src: url(./assets/fonts/static/WorkSans-SemiBold.ttf);
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Work Sans';
-    src: url(../assets/fonts/static/WorkSans-Bold.ttf);
+    src: url(./assets/fonts/static/WorkSans-Bold.ttf);
     font-weight: 700;
 }
