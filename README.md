@@ -25,7 +25,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Live Site URL: [Live Server](https://plmohamed.github.io/QR-code-component/)
+- Live Site URL: [Live Server](https://plmohamed.github.io/FAQ-accordion/)
 
 ## My process
 
